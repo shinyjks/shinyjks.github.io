@@ -1,0 +1,75 @@
+html{
+  height: 100%;
+}
+.navbar-default{
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color:transparent;
+  border-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    /*background-color: #FFFF00;*/
+    color: #607D8B;
+}
+.navbar-default .navbar-nav>li>a{
+  color: #424242;
+  font-size: 20px;
+}
+body{
+
+  background-image: url('http://umatter.gr/wp-content/uploads/2016/01/computer.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 97vh;
+}
+.border{
+  text-align: center;
+
+  font-size: 50px;
+  color:#000000;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 20%;
+}
+.border{
+  border: 5px solid #616161;
+}
+#typed-string{
+  color: #EEEEEE;
+}
+.typed-cursor{
+   opacity: 1;
+   -webkit-animation: blink 0.7s infinite;
+   -moz-animation: blink 0.7s infinite;
+   animation: blink 0.7s infinite;
+   }
+   @keyframes blink{
+   0% { opacity:1; }
+   50% { opacity:0; }
+   100% { opacity:1; }
+   }
+   @-webkit-keyframes blink{
+   0% { opacity:1; }
+   50% { opacity:0; }
+   100% { opacity:1; }
+   }
+   @-moz-keyframes blink{
+   0% { opacity:1; }
+   50% { opacity:0; }
+   100% { opacity:1; }
+   }
+
+
+   .footer {
+  position:fixed;
+   bottom:0;
+   left:50%;
+   margin-left:-200px; /*negative half the width */
+
+   width:400px;
+   height:75px;
+}
+.navbar ul li{
+    display:inline-block;
+
+ }
